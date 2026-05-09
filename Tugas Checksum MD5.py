@@ -43,7 +43,7 @@ print(f"  Data Baru   : {data_baru}")
 print(f"  Hash Baru   : {hash_baru}")
 print()
 
-# ─── STATUS PERUBAHAN ──────────────────────────────
+# STATUS PERUBAHAN
 print("-" * 50)
 if hash_awal == hash_baru:
     print("STATUS : Data TIDAK berubah. Integritas terjaga.")
