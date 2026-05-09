@@ -51,9 +51,9 @@ else:
     print("STATUS : Data TELAH BERUBAH / dimodifikasi!")
     # Deteksi field mana yang berubah
     perubahan = []
-    if nama_awal  != nama_baru:  perubahan.append(f"Nama      : '{nama_awal}' → '{nama_baru}'")
-    if email_awal != email_baru: perubahan.append(f"Email     : '{email_awal}' → '{email_baru}'")
-    if hp_awal    != hp_baru:    perubahan.append(f"Nomor HP  : '{hp_awal}' → '{hp_baru}'")
+    if nama_awal  != nama_baru:  perubahan.append(f"Nama      : '{nama_awal}' ---> '{nama_baru}'")
+    if email_awal != email_baru: perubahan.append(f"Email     : '{email_awal}' ---> '{email_baru}'")
+    if hp_awal    != hp_baru:    perubahan.append(f"Nomor HP  : '{hp_awal}' ---> '{hp_baru}'")
     print("   Field yang berubah:")
     for p in perubahan:
         print(f"   • {p}")
